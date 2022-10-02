@@ -174,8 +174,19 @@ a:active{
 .post-img{
   width: 100%;
   height: auto;
+  /* margin: 100px */
 }
 
+nav a:link{
+  /* background-color: orangered; */
+  margin-right: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+nav a:link:last-child{
+  margin-right: 0;
+}
 /* nav p {
   font-size: 18px;
 } */

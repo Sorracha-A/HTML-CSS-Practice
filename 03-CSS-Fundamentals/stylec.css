@@ -1,14 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
 body {
-  border: 5px solid #000000;
+
   font-family: sans-serif;
   line-height: 1.4;
+
+
 }
+
 
 header{
 
   text-transform: uppercase;
   background-color: #f7f7f7;
   text-align: center;
+  padding: 15px 0;
 }
 
 .price{
@@ -16,8 +26,11 @@ header{
 
 }
 
+
+
 a:link{
   color: black;
+  
 }
 
 a:visited{
@@ -28,10 +41,18 @@ a:hover,a:active{
   text-decoration: none;
 }
 
-li{
+ul{
   list-style: square;
+  margin-left: 20px
+
 }
 
+li{
+  margin-bottom: 10px;
+}
+.para{
+  margin-bottom: 10px;
+}
 
 article button{
   font-size: 20px;
@@ -40,6 +61,10 @@ article button{
   background-color: #000000;
   color : #ffffff;
   cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top  : 5px solid #000000;
+
 }
 
 article button:hover{
@@ -49,7 +74,8 @@ article button:hover{
 }
 
 article h3{
-
+  margin-top: 30px;
+  margin-bottom: 15px;
   text-transform: uppercase;
 }
 
@@ -59,4 +85,14 @@ article h3{
   font-weight: bold;
   text-transform: uppercase;
   font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.container{
+  width: 825px;
+  /* margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px; */
+  margin: 50px auto;
+  border: 5px solid #000000;
 }
